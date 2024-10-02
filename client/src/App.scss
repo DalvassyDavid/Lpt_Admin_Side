@@ -1,0 +1,389 @@
+.navbar_adduser_button {
+  // background-color: #04AA6D;
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin-left: 134px;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  top: -492px;
+  right: -150px;
+}
+.navbar_adduser_button:hover,
+.navbar_adduser_button:focus {
+  background-color: #07c;
+}
+
+.dashboard-main-page {
+  display: flex;
+}
+
+.dashboard-main-page-left {
+  height: 450px;
+  overflow: scroll;
+  width: 60%;
+}
+.dashboard-main-page-right {
+  height: 450px;
+  overflow: scroll;
+  // width: 90%;
+}
+
+// .customers {
+//   font-family: Arial, Helvetica, sans-serif;
+//   border-collapse: collapse;
+//   width: 100%;
+//   font-size: 14px;
+// }
+// .serial-head{
+//   width: 12px;
+// }
+// .occassion-head{
+//   width: 12px;
+// }
+// .date-head{
+//   width: 120px;
+// }
+// .title-head{
+//   width: 120px;
+// }
+// .serial-head{
+//   width: 120px;
+// }
+// .customers .serial{
+//   width: 30px;
+// }
+.customers .serial{
+  width: 30px;
+}
+.customers .occassion {
+  width: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+}
+.date {
+  width: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+}
+.title {
+  width: 90px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+}
+
+.serial-view:hover {
+  color: orange;
+}
+
+//Statistics page / dashboard
+
+.statistics-page {
+  margin-left: 30px;
+}
+.statistics-page-numbers {
+  display: flex;
+}
+.statistics-page-numbers > div {
+  width: 160px;
+  margin: 10px;
+  height: 80px;
+  box-shadow: 2px 2px 5px #333;
+  padding: 0px 10px 10px 12px;
+  border-radius: 7px;
+  line-height: 39px;
+}
+.statistics-page-numbers-members {
+  border-bottom: solid 5px;
+  border-color: orange;
+}
+.statistics-page-numbers-events {
+  border-bottom: solid 5px;
+  border-color: blue;
+}
+.statistics-page-numbers-services {
+  border-bottom: solid 5px;
+  border-color: rgb(0, 255, 0);
+}
+.statistics-page-numbers-youtube {
+  border-bottom: solid 5px;
+  border-color: hsl(0, 100%, 50%);
+}
+.statistics-page-numbers-following {
+  border-bottom: solid 5px;
+  border-color: gold;
+}
+.statistics-page-numbers-values-width {
+  width: 40px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.statistics-page-numbers-values-lables {
+  color: gray;
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+//Right Side form CSS
+.form-style-7 {
+  max-width: 400px;
+  // margin:50px auto;
+  // background:#fff;
+  border-radius: 2px;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10px;
+}
+
+.form-style-7 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.form-style-7 li {
+  display: block;
+  padding: 9px;
+  border: 1px solid #dddddd;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  height: 29px;
+  margin-left: 10px;
+  width: 350px;
+}
+.form-style-7 li:last-child {
+  border: none;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.form-style-7 li > label {
+  display: block;
+  float: left;
+  margin-top: -19px;
+  background: #ffffff;
+  height: 14px;
+  padding: 2px 5px 2px 5px;
+  color: black;
+  font-size: 14px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.form-style-7 input[type="text"],
+.form-style-7 input[type="date"],
+.form-style-7 input[type="datetime"],
+.form-style-7 input[type="email"],
+.form-style-7 input[type="number"],
+.form-style-7 input[type="search"],
+.form-style-7 input[type="time"],
+.form-style-7 input[type="url"],
+.form-style-7 input[type="password"],
+.form-style-7 textarea,
+.form-style-7 select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #07c;
+  font-size: 15px;
+  text-align: center;
+}
+.form-style-7 input[type="text"]:focus,
+.form-style-7 input[type="date"]:focus,
+.form-style-7 input[type="datetime"]:focus,
+.form-style-7 input[type="email"]:focus,
+.form-style-7 input[type="number"]:focus,
+.form-style-7 input[type="search"]:focus,
+.form-style-7 input[type="time"]:focus,
+.form-style-7 input[type="url"]:focus,
+.form-style-7 input[type="password"]:focus,
+.form-style-7 textarea:focus,
+.form-style-7 select:focus {
+  background-color: rgb(247, 247, 247);
+}
+.form-style-7 li > span {
+  background: rgb(255, 249, 241);
+  display: block;
+  padding: 3px;
+  margin: 0 -9px -9px -9px;
+  text-align: center;
+  color: rgb(255, 249, 241); //color of span
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+.form-style-7 textarea {
+  resize: none;
+}
+.form-style-7 input[type="submit"],
+.form-style-7 input[type="button"] {
+  background: #2471ff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 3px solid #5994ff;
+  border-radius: 3px;
+  color: #d2e2ff;
+}
+.form-style-7 input[type="submit"]:hover,
+.form-style-7 input[type="button"]:hover {
+  background: #6b9fff;
+  color: #fff;
+}
+.button_for_save_edit_close {
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 80px;
+  border-color: white;
+  background-color: rgb(0, 175, 0);
+}
+.button_for_save_member {
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-color: white;
+  margin-left: 49px;
+  background-color: rgb(0, 175, 0);
+}
+.button_for_discard_member {
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-color: white;
+  margin-left: 49px;
+  background-color: orange;
+}
+.button_for_ok {
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  border-color: white;
+  margin-left: 80px;
+  background-color: orange;
+}
+
+.button_for_discard_member:hover {
+  background-color: rgb(226, 147, 0);
+}
+.button_for_save_member:hover {
+  background-color: rgb(0, 147, 0);
+}
+.LoginAuthenticationPage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.LoginAuthenticationPage-container-div {
+  width: 400px;
+  height: 500px;
+  border: solid;
+  border-color: white;
+  box-shadow: 2px 2px 5px #333;
+  text-align: center;
+}
+.LoginAuthenticationPage-container-div-padlock {
+  background-color: #7dc1ce;
+  height: 16vh;
+  font-size: 24px;
+  text-align: center;
+}
+
+.LoginAuthenticationPage-container-div-input-label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.LoginAuthenticationPage-container-div-input-password {
+  display: block;
+  width: 70%;
+  margin-bottom: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  border-top: rgb(255, 255, 255);
+  border-left: rgb(255, 255, 255);
+  border-right: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 15%;
+}
+.LoginAuthenticationPage-container-div-input-text {
+  display: block;
+  width: 70%;
+  margin-bottom: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  border-top: rgb(255, 255, 255);
+  border-left: rgb(255, 255, 255);
+  border-right: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 15%;
+}
+.LoginAuthenticationPage-container-div-input-text:focus-visible {
+  outline: none;
+}
+.LoginAuthenticationPage-container-div-input-password:focus-visible {
+  outline: none;
+}
+
+.LoginAuthenticationPage-submit-button {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #4caf50;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
